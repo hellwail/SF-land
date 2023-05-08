@@ -224,7 +224,7 @@ body {
     margin: 0px 0px 9px; 
   }
 
-  .projects-link a {
+  .projects-link-a {
     margin-right: 60px;
     text-decoration: none;
     font-size: 14px;
@@ -237,6 +237,12 @@ body {
     color: #e3b873;
     transition: 0.15s;
     transition-delay: 0.085s;
+  }
+
+  .projects-link__active {
+    text-decoration: underline;
+    color: #e3b873;
+    
   }
 
   .slide-img img {
@@ -1122,5 +1128,12 @@ box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
  .projects-container-mobile{
   display: none;
  }
+
+ .active{
+  background: #FFFFFF;
+  border-radius: 30px;
+  width: 9.57px;
+  height: 9.57px;
+}
 
  

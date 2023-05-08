@@ -10,7 +10,6 @@
     <title>Document</title>
 </head>
 <body class="body">
-    
     <header class="header">
         <div class="container header header-container">
             <div class="logo">
@@ -82,22 +81,24 @@
                             </div>
                         </div> 
                         <div class="arrows-dots">
-                            <li class="left"><a href=""><img src="img/right.svg" alt="left"></a></li>
-                            <li><a href=""><div class="dot "></div></a></li>
-                            <li><a href=""><div class="dot"></div></a></li>
-                            <li><a href=""><div class="dot"></div></a></li>
-                            <li class="right"><a href=""><img src="img/left.svg" alt="right"></a></li>
+                            <li class="left slider-change" id="left"><a href="javascript:"><img src="img/right.svg" alt="left"></a></li>
+                            <li><a href="javascript:"><div class="dot slider-change"></div></a></li>
+                            <li><a href="javascript:"><div class="dot slider-change"></div></a></li>
+                            <li><a href="javascript:"><div class="dot slider-change"></div></a></li>
+                            <li class="right slider-change" id="right"><a href="javascript:"><img src="img/left.svg" alt="right"></a></li>
                         </div>
 
                     </div>
 
                     <div class="project-right">
-                        <ul class="nav">
-                            <li class="subtitle projects-link"><a href="#first-slide">Rostov-on-Don, Admiral</a></li>
-                            <li class="subtitle projects-link"><a href="#second-slide">Sochi Thieves</a></li>
-                            <li class="subtitle projects-link"><a href="#third-slide">Rostov-on-Don Patriotic</a></li>
+                        <ul class="nav slider-nav">
+                            <li class="subtitle projects-link"><a href="javascript:" class="projects-link-a">Rostov-on-Don, Admiral</a></li>
+                            <li class="subtitle projects-link"><a href="javascript:" class="projects-link-a">Sochi Thieves</a></li>
+                            <li class="subtitle projects-link"><a href="javascript:" class="projects-link-a">Rostov-on-Don Patriotic</a></li>
                         </ul>
-                        <img src="img/image 2.1.png" class="slide-img" alt="admiral">
+                        <img src="img/Slider/slide.png" class="slide-img" alt="admiral">
+                        <img src="img/Slider/slide2.png" class="slide-img" alt="admiral">
+                        <img src="img/Slider/slide3.png" class="slide-img" alt="admiral">
                     </div>
                 </div>  
                 <div class="container projects-container-mobile">
@@ -275,9 +276,6 @@
                                 <li>Replacing doors</li>
                             </ul>
                         </div>
-                        <!-- <div class="types-of-repair-price-block">
-                            <p>from 4000 rub / m2</p>
-                        </div> -->
                         <button class="btn btn-price types-of-repair-price-block">from 4000 rub</button>
                     </div> 
                 </div>
@@ -434,7 +432,7 @@
                     <div class="container-clients">
                         <div class="clients-blocks">
                             <div class="client">
-                               <img class="clients-images" src="img/Mask Group (1).png" alt="image of Fedosova Maria Konstantinovna">
+                               <img class="clients-images" src="img/Clients/Mask Group (1).png" alt="image of Fedosova Maria Konstantinovna">
                                <p class="name">
                                    Fedosova Maria<br> 
                                    Konstantinovna  
@@ -462,7 +460,7 @@
                         </div>
                         <div class="clients-blocks">
                             <div class="client">
-                               <img class="clients-images" src="img/Mask Group (2).png" alt="image of Afanasyev Sergey Alexandrovich">
+                               <img class="clients-images" src="img/Clients/Mask Group (2).png" alt="image of Afanasyev Sergey Alexandrovich">
                                <p class="name">
                                    Afanasyev Sergey<br> 
                                    Alexandrovich 
@@ -490,7 +488,7 @@
                         </div>
                         <div class="clients-blocks">
                             <div class="client">
-                               <img class="clients-images" src="img/Mask Group (3).png" alt="image of Kiriev Egor Leonidovich">
+                               <img class="clients-images" src="img/Clients/Mask Group (3).png" alt="image of Kiriev Egor Leonidovich">
                                <p class="name">
                                    Kiriev Egor<br> 
                                    Leonidovich  
@@ -608,5 +606,6 @@
         </div>
     </footer>
 
+<script src="script.js"></script>
 </body>
 </html>
