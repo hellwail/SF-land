@@ -196,6 +196,14 @@ body {
     text-align: start;
   }
 
+  .description{
+    display: none;
+  }
+
+  .description-active{
+    display: block;
+  }
+
   .project-right {
     margin: 107px 0px 0px 50px;
     padding-left: 60px;
@@ -310,16 +318,9 @@ body {
   }
 
   .third-section{
-    transform: translate(0%, -41%);
+    transform: translate(0%, -25%);
     
   }
-
-  
-
-  /* .control-container{
-    
-    
-  } */
 
   .subtitle-control{
     color:#FFFFFF;
@@ -331,7 +332,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    
+    margin-bottom: 15px;
   }
 
   .control-img-container {
@@ -362,7 +363,8 @@ body {
  .play{
   position: absolute;
   right: 45%;
-  top: 33%;
+  top: 29%;
+  cursor: pointer;
  }
 
  .control-form{
@@ -765,7 +767,7 @@ box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.15);
 .fith-section {
   position: relative;
   z-index: 1;
-  background-image: url('img/image\ 5.1.png'); 
+  background-image: url('img/fifthSection//image\ 5.1.png'); 
   background-size: cover;
 }
 

@@ -1,11 +1,13 @@
 let dots = document.getElementsByClassName('dot'),
     dotsArea = document.getElementsByClassName('arrows-dots')[0],
     slides = document.getElementsByClassName('slide-img'),
+    description = document.getElementsByClassName('description'),
     nav = document.getElementsByClassName('projects-link-a'),
     navArea = document.getElementsByClassName('slider-nav')[0],
     arrow = document.getElementsByClassName('slider-change'),
     prevBtn = document.getElementById('left'),
     nextBtn = document.getElementById('right'),
+    
     slideIndex = 1;
 
 showSlides(slideIndex);
@@ -21,11 +23,14 @@ function showSlides(n) {
     }
     for (let i = 0; i < dots.length; i++) {
         dots[i].classList.remove('active');
-        nav[i].classList.remove('projects-link__active')
+        nav[i].classList.remove('projects-link__active');
+        description[i].classList.remove('description-active');
     }
     slides[slideIndex - 1].style.display = 'block';
     dots[slideIndex - 1].classList.add('active');
-    nav[slideIndex - 1].classList.add('projects-link__active')
+    nav[slideIndex - 1].classList.add('projects-link__active');
+    description[slideIndex - 1].classList.add('description-active');
+
 }
 
 function plusSlides(n) {

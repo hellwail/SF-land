@@ -463,8 +463,7 @@
         display: none;
     }
     .play{
-        right: 41%;
-        top: 15%;
+        display: none;
     }
     .control-form-data{
         display: block;
@@ -500,17 +499,14 @@
     .third-section {
         height: 700px;
         position: absolute;
-        top: 30%;  
+        top: 29%;  
+        transform: translate(0%, -41%);
     }
     
     #first-btn {
         display: none;
     }
     
-    .play{
-        right: 30%;
-        top: 15%;
-    }
     .control-form-data{
         display: block;
     }
